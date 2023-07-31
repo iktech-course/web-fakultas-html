@@ -1,0 +1,72 @@
+
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    @@include("partials/body.html")
+        
+        
+        
+        @@include("partials/navbar/nav-light-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-profile d-table w-100 bg-primary" style="background: url('assets/images/1undhari/bg.png') center center;">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center bg-half-170">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0 text-light"> Kegiatan Akademik </h4>
+                            <p class="para-desc text-white-50 mx-auto">Jangan lewatkan kesempatan untuk terlibat dalam kegiatan akademik kami. Ikuti workshop, seminar, dan acara lainnya untuk meningkatkan pengetahuan Anda.</p>
+
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Blog STart -->
+        <div class="card shadow rounded border-0 overflow-hidden">
+            <div class="col-lg-8 col-12">
+                <div class="row">
+                    <div class="row align-items-center g-0">
+                        <img src="assets/images/work/14.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">Teknik Informatika</h5>
+                            <p class="card-text">Jurusan Teknik Informatika adalah program studi di perguruan tinggi yang fokus pada pengembangan dan penerapan teknologi informasi, termasuk perangkat lunak, perangkat keras, dan jaringan komputer</p>
+                            <p class="card-text" class="uil-uil mdi-account"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
+        <!-- Blog End -->
+
+        
+        @@include("partials/footer/footer-ten.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
