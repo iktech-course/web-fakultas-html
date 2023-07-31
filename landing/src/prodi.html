@@ -5,8 +5,8 @@
         @@include("partials/title-meta.html", {"title": "Landrick"})
         
         <!-- Css -->
+        <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
         @@include("partials/head-css.html")
-
     </head>
 
     @@include("partials/body.html")
@@ -16,41 +16,85 @@
         @@include("partials/navbar/nav-light-center.html")
         
         <!-- Hero Start -->
-        <section class="bg-profile d-table w-100 bg-primary" style="background: url('assets/images/1undhari/bg.png') center center;">
+        <section class="bg-half-260 bg-primary d-table w-100" style="background-image: url('assets/images/course/detail.png');">
             <div class="container">
                 <div class="row mt-5 justify-content-center">
-                    <div class="col-lg-12 text-center bg-half-170">
+                    <div class="col-lg-12 text-center">
                         <div class="pages-heading">
-                            <h4 class="title mb-0 text-light"> Kegiatan Akademik </h4>
-                            <p class="para-desc text-white-50 mx-auto">Jangan lewatkan kesempatan untuk terlibat dalam kegiatan akademik kami. Ikuti workshop, seminar, dan acara lainnya untuk meningkatkan pengetahuan Anda.</p>
-
+                            <h4 class="title mb-0 text-light"> Program Studi </h4>
+                            <p class="para-desc text-white-50 mx-auto">Pilihlah jalur karier Anda di dunia ilmu komputer. Temukan program studi yang sesuai untuk mencapai impian Anda dalam teknologi.</p>
                         </div>
                     </div>  <!--end col-->
                 </div><!--end row-->
             </div> <!--end container-->
         </section><!--end section-->
         <!-- Hero End -->
-
-        <!-- Blog STart -->
-        <div class="card shadow rounded border-0 overflow-hidden">
-            <div class="col-lg-8 col-12">
+        
+        <!--Blog Lists Start-->
+        <section class="section">
+            <div class="container">
                 <div class="row">
-                    <div class="row align-items-center g-0">
-                        <img src="assets/images/work/14.jpg" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <h5 class="card-title">Teknik Informatika</h5>
-                            <p class="card-text">Jurusan Teknik Informatika adalah program studi di perguruan tinggi yang fokus pada pengembangan dan penerapan teknologi informasi, termasuk perangkat lunak, perangkat keras, dan jaringan komputer</p>
-                            <p class="card-text" class="uil-uil mdi-account"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-                
+                    <!-- Blog Post Start -->
+                    <div class="col-lg-12 col-6">
+                        <div class="row">
+                            <div class="col-12 mb-4 pb-2">
+                                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                                    <div class="row align-items-center g-0">
+                                        <div class="col-md-6">
+                                            <img src="assets/images/work/14.jpg" class="img-fluid" alt="">
+                                            <div class="overlay"></div>
+                                            <div class="author">
+                                                <small class="user d-block"><i class="uil uil-user"></i> Kaprodi: Lido Sabda Lesmana M.Kom</small>
+                                            </div>
+                                        </div><!--end col-->
+        
+                                        <div class="col-md-6">
+                                            <div class="card-body content">
+                                                <h5><a href="javascript:void(0)" class="card-title title text-dark">Teknik Informatika</a></h5>
+                                                <p class="text-muted mb-0">Jurusan Teknik Informatika adalah program studi di perguruan tinggi yang fokus pada pengembangan dan penerapan teknologi informasi, termasuk perangkat lunak, perangkat keras, dan jaringan komputer.</p>
+                                                <div class="post-meta d-flex justify-content-between mt-3">
+                                                    <a href="prodi-detail.html" class="text-primary readmore">Baca Lebih Lanjut <i class="uil uil-angle-right-b align-middle"></i></a>
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+                                    </div> <!--end row-->
+                                </div><!--end blog post-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
 
-        <!-- Blog End -->
+                    <div class="col-lg-12 col-6">
+                        <div class="row">
+                            <div class="col-12 mb-4 pb-2">
+                                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                                    <div class="row align-items-center g-0">
+                                        <div class="col-md-6">
+                                            <img src="assets/images/work/14.jpg" class="img-fluid" alt="">
+                                            <div class="overlay"></div>
+                                            <div class="author">
+                                                <small class="user d-block"><i class="uil uil-user"></i> Kaprodi: Lido Sabda Lesmana M.Kom</small>
+                                            </div>
+                                        </div><!--end col-->
+        
+                                        <div class="col-md-6">
+                                            <div class="card-body content">
+                                                <h5><a href="javascript:void(0)" class="card-title title text-dark">Teknik Informatika</a></h5>
+                                                <p class="text-muted mb-0">Jurusan Teknik Informatika adalah program studi di perguruan tinggi yang fokus pada pengembangan dan penerapan teknologi informasi, termasuk perangkat lunak, perangkat keras, dan jaringan komputer.</p>
+                                                <div class="post-meta d-flex justify-content-between mt-3">
+                                                    <a href="prodi-detail.html" class="text-primary readmore">Baca Lebih Lanjut <i class="uil uil-angle-right-b align-middle"></i></a>
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+                                    </div> <!--end row-->
+                                </div><!--end blog post-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                    <!-- Blog Post End -->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section -->
+        <!--Blog Lists End-->
 
         
         @@include("partials/footer/footer-ten.html")
